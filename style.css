@@ -22,6 +22,10 @@ body{
     padding: 9px 20px;
 }
 
+.green-glow{
+    box-shadow: 1px 1px 15px rgb(47, 255, 47);
+}
+
 .btn-privious{
     background: rgba(255, 255, 255, 0.2);
     color: #ffffff;
