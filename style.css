@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #13141b;
     color: #ffffff;
@@ -39,3 +43,6 @@ body{
     border-radius: 15px;
 }
 
+#single-result{
+    display: none !important;
+}
