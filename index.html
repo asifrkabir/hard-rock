@@ -55,13 +55,17 @@
                 </div>
             </div>
 
+            <div id="error-message-song" class="text-center">
+                <h4>No songs found</h4>
+            </div>
+
             <!-- === Fancy results === -->
             <div id="search-result" class="search-result col-md-8 mx-auto py-4">
                 <!-- single result -->
                 <div id="single-result" class="single-result row align-items-center my-3 p-3 d-flex">
                     <div class="col-md-9">
-                        <h3 class="lyrics-name">Purple Noon</h3>
-                        <p class="author lead">Album by <span id="artist-name">Washed Out</span></p>
+                        <h3 class="lyrics-name">Song Name</h3>
+                        <p class="author lead">Album by <span id="artist-name">Artist</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
                         <button class="btn btn-success lyric-btn">Get Lyrics</button>
@@ -70,8 +74,12 @@
                 <!-- ./ single result -->
             </div>
 
+            <div id="error-message-lyric" class="text-center">
+                <h4>No lyrics found</h4>
+            </div>
+
             <!-- Single Lyrics -->
-            <div class="single-lyrics text-center">
+            <div id="lyric-container" class="single-lyrics text-center">
                 <button class="btn go-back">&lsaquo;</button>
                 <h2 id="lyric-artist" class="text-success mb-4"></h2>
                 <pre id="lyric" class="lyric text-white">

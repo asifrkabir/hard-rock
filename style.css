@@ -46,3 +46,15 @@ body{
 #single-result{
     display: none !important;
 }
+
+#lyric-container{
+    display: none;
+}
+
+#error-message-song, #error-message-lyric{
+    margin: 10em 20em;
+    border-radius: 20px;
+    background-color: rgba(94, 224, 137, 0.226);
+    padding: 0.5em;
+    display: none;
+}
